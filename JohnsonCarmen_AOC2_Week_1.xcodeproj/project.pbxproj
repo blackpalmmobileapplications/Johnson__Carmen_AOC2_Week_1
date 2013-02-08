@@ -18,6 +18,11 @@
 		110E653E16C4771400B6BFF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110E653D16C4771400B6BFF4 /* Default-568h@2x.png */; };
 		110E654116C4771400B6BFF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E654016C4771400B6BFF4 /* ViewController.m */; };
 		110E654416C4771400B6BFF4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110E654216C4771400B6BFF4 /* ViewController.xib */; };
+		110E654E16C49C4700B6BFF4 /* WeightRoomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E654D16C49C4700B6BFF4 /* WeightRoomFactory.m */; };
+		110E655116C49C7400B6BFF4 /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E655016C49C7400B6BFF4 /* BaseClass.m */; };
+		110E655416C49C9D00B6BFF4 /* Ectomorph.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E655316C49C9D00B6BFF4 /* Ectomorph.m */; };
+		110E655716C49CBE00B6BFF4 /* Gym.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E655616C49CBE00B6BFF4 /* Gym.m */; };
+		110E655A16C49DA800B6BFF4 /* BodyBuilders.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E655916C49DA800B6BFF4 /* BodyBuilders.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		110E653F16C4771400B6BFF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		110E654016C4771400B6BFF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		110E654316C4771400B6BFF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		110E654C16C49C4700B6BFF4 /* WeightRoomFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightRoomFactory.h; sourceTree = "<group>"; };
+		110E654D16C49C4700B6BFF4 /* WeightRoomFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRoomFactory.m; sourceTree = "<group>"; };
+		110E654F16C49C7400B6BFF4 /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		110E655016C49C7400B6BFF4 /* BaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClass.m; sourceTree = "<group>"; };
+		110E655216C49C9D00B6BFF4 /* Ectomorph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ectomorph.h; sourceTree = "<group>"; };
+		110E655316C49C9D00B6BFF4 /* Ectomorph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ectomorph.m; sourceTree = "<group>"; };
+		110E655516C49CBE00B6BFF4 /* Gym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gym.h; sourceTree = "<group>"; };
+		110E655616C49CBE00B6BFF4 /* Gym.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gym.m; sourceTree = "<group>"; };
+		110E655816C49DA800B6BFF4 /* BodyBuilders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyBuilders.h; sourceTree = "<group>"; };
+		110E655916C49DA800B6BFF4 /* BodyBuilders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyBuilders.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,16 @@
 				110E654016C4771400B6BFF4 /* ViewController.m */,
 				110E654216C4771400B6BFF4 /* ViewController.xib */,
 				110E652E16C4771400B6BFF4 /* Supporting Files */,
+				110E654C16C49C4700B6BFF4 /* WeightRoomFactory.h */,
+				110E654D16C49C4700B6BFF4 /* WeightRoomFactory.m */,
+				110E654F16C49C7400B6BFF4 /* BaseClass.h */,
+				110E655016C49C7400B6BFF4 /* BaseClass.m */,
+				110E655216C49C9D00B6BFF4 /* Ectomorph.h */,
+				110E655316C49C9D00B6BFF4 /* Ectomorph.m */,
+				110E655516C49CBE00B6BFF4 /* Gym.h */,
+				110E655616C49CBE00B6BFF4 /* Gym.m */,
+				110E655816C49DA800B6BFF4 /* BodyBuilders.h */,
+				110E655916C49DA800B6BFF4 /* BodyBuilders.m */,
 			);
 			path = JohnsonCarmen_AOC2_Week_1;
 			sourceTree = "<group>";
@@ -176,6 +201,11 @@
 				110E653416C4771400B6BFF4 /* main.m in Sources */,
 				110E653816C4771400B6BFF4 /* AppDelegate.m in Sources */,
 				110E654116C4771400B6BFF4 /* ViewController.m in Sources */,
+				110E654E16C49C4700B6BFF4 /* WeightRoomFactory.m in Sources */,
+				110E655116C49C7400B6BFF4 /* BaseClass.m in Sources */,
+				110E655416C49C9D00B6BFF4 /* Ectomorph.m in Sources */,
+				110E655716C49CBE00B6BFF4 /* Gym.m in Sources */,
+				110E655A16C49DA800B6BFF4 /* BodyBuilders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

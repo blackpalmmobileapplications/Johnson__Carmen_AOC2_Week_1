@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeightRoomFactory.h"
 
 @interface ViewController : UIViewController
+
+{
+    UILabel *title_Label;
+    UILabel *ectomorph_Label;
+    UILabel *bodyBuilders_Label;
+    UILabel *bodyBuilders_Muscle;
+    UILabel *gym_Label;
+}
 
 @end
