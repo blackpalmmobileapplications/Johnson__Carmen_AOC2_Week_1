@@ -42,7 +42,7 @@
     if (ectomorphInfo != nil)
     {
         [ectomorphInfo calculateAdvantage];
-        [ectomorphInfo MuscleSize:40];
+        [ectomorphInfo setMuscleSize:40];
         
         ectomorph_Label = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 40.0f, 320.0f, 65.0f)];
         
